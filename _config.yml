@@ -4,8 +4,8 @@ url: https://professordeng.com # domain
 baseurl: "/log"                # root directory
 
 # Path of site resources
-img: /assets/img
-css: /assets/css
+img: /log/assets/img
+css: /log/assets/css
 
 ## Docs: https://pages.github.com/versions/
 plugins:
