@@ -11,7 +11,7 @@ h1 {
 
 h2 {
   font-size: var(--h2-font-size);
-  border-bottom: 1px solid #dfe2e5;
+  border-bottom: 1px solid var(--gray-200);
   margin: .5rem 0;
 }
 
@@ -39,7 +39,7 @@ hr {
   position: relative;
   margin: 3rem 3rem;
   border: 0;
-  border-top: 1px solid var(--gray-500);
+  border-top: 1px solid var(--gray-300);
 }
 
 blockquote {

@@ -15,7 +15,6 @@ plugins:
   - jemoji
   - jekyll-avatar
   - jekyll-mentions
-  - jekyll-coffeescript
 
 # default layout of the articles in _post
 defaults:
@@ -27,4 +26,5 @@ defaults:
 
 
 # Socials
+github: professordeng
 email: professordeng@qq.com
