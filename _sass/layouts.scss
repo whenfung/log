@@ -20,3 +20,18 @@
     }
   }
 }
+
+.group-date {
+  width: 4rem;
+  float: left;
+}
+
+.page {
+  padding: 1rem; 
+  background-color: var(--page-bg);
+}
+
+.post {
+  padding: 1rem; 
+  background-color: var(--post-bg);
+}
