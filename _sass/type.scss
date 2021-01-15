@@ -11,7 +11,8 @@ h1 {
 
 h2 {
   font-size: var(--h2-font-size);
-  border-bottom: 1px solid var(--gray-200);
+  padding-top: 1rem;
+  border-top: 1px solid var(--gray-200);
   margin: .5rem 0;
 }
 
