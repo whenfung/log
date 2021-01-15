@@ -21,17 +21,17 @@
   }
 }
 
+.page, .post {
+  padding: 1rem;
+  background-color: var(--content-bg);
+}
+
+.post-title, .group-name {
+  margin: 0;
+	padding: 1rem 0;
+}
+
 .group-date {
   width: 4rem;
   float: left;
-}
-
-.page {
-  padding: 1rem; 
-  background-color: var(--page-bg);
-}
-
-.post {
-  padding: 1rem; 
-  background-color: var(--post-bg);
 }

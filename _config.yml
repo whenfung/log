@@ -1,7 +1,7 @@
 title: Log                     # title of the site
-description: log your life     # description of the site
+description: Log your life     # description of the site
 url: https://professordeng.com # domain
-baseurl: "/log"                    # root directory
+baseurl: "/log"                # root directory
 
 # Path of site resources
 img: /assets/img
@@ -15,6 +15,7 @@ plugins:
   - jemoji
   - jekyll-avatar
   - jekyll-mentions
+  - jekyll-coffeescript
 
 # default layout of the articles in _post
 defaults:

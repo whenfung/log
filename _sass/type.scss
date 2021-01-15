@@ -55,27 +55,25 @@ blockquote {
 
 code,
 pre {
-  tab-size: 2;
   font-family: var(--code-font);     
   font-size: var(--code-font-size);  
   background-color: var(--code-bg); 
 }
 
 code {
-  tab-size: 2;
   padding: .2rem .4rem;
   color: var(--code-color);    
   border-radius: 3px; 
 }
 
 pre {
-  tab-size: 2;
   display: block;
   width: 100%;
   line-height: 1.4;  
   margin-top: 0;
   margin-bottom: 1rem;
   padding: .8rem .5rem;
+  tab-size: 2;
   
   &.highlight {
     overflow-x: auto;
@@ -83,8 +81,7 @@ pre {
 }
 
 // Remove the format of code in pre
-pre code {  
-  tab-size: 2;
+pre code {
   padding: 0;
   font-size: 100%;
   color: inherit;
