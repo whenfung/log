@@ -1,0 +1,23 @@
+.container {
+  max-width: 38rem;
+  margin: 0 auto;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  min-height: 4rem; 
+  
+  & a {
+    color: var(--gray-600);
+    padding: .8rem;
+    text-decoration: none;
+    border-radius: 50%;
+    
+    &:hover {
+      color: var(--gray-900);
+      background-color: var(--gray-400);
+    }
+  }
+}

@@ -1,0 +1,29 @@
+title: Log                     # title of the site
+description: log your life     # description of the site
+url: https://professordeng.com # domain
+baseurl: "/log"                    # root directory
+
+# Path of site resources
+img: /assets/img
+css: /assets/css
+
+## Docs: https://pages.github.com/versions/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
+
+# default layout of the articles in _post
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+
+# Socials
+email: professordeng@qq.com

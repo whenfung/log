@@ -1,0 +1,132 @@
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+  font-weight: var(--heading-weight);
+  line-height: 1.25;
+  margin-bottom: .5rem;
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+h2 {
+  margin-top: 1.5rem;
+  font-size: var(--h2-font-size);
+  border-bottom: 1px solid #dfe2e5;
+}
+
+h3 {
+  margin-top: 1rem;
+  font-size: var(--h3-font-size);
+}
+
+h4, h5, h6 {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  padding-left: 1rem;
+}
+
+hr {
+  position: relative;
+  margin: 3rem 3rem;
+  border: 0;
+  border-top: 2px solid #A2A2A2;
+}
+
+blockquote {
+  margin: .8rem 0;    
+  padding: .5rem 1rem;   
+  color: var(--gray-600); 
+  border-left: .25rem solid var(--gray-600); 
+  
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+code,
+pre {
+  font-family: var(--code-font);     
+  font-size: var(--code-font-size);  
+  background-color: var(--code-bg); 
+}
+
+code {
+  padding: .2rem .4rem;
+  color: var(--code-color);    
+  border-radius: 3px; 
+}
+
+pre {
+  display: block;
+  width: 100%;
+  line-height: 1.4;  
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: .8rem .5rem;
+  
+  &.highlight {
+    overflow-x: auto;
+  }
+}
+
+// Remove the format of code in pre
+pre code {  
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent;
+}
+
+.footnotes p {
+  margin-bottom: 0;
+}
+
+video {
+  width: calc(100% + 2rem);
+  margin-left: -1rem;
+  
+  @media (min-width: 38rem) {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+// iframe video ratio is 16: 9
+iframe {
+  margin-bottom: 1rem;
+  overflow: none;      // Remove scroll box
+  border: 0;           // Remove embedded border
+  
+  width: 100vw;
+  height: 56.25vw;
+  margin-left: -1rem;
+  
+  @media (min-width: 38rem) {
+    width: 100%;
+    height: 405px;
+    margin-left: 0;
+  }
+}
+
+// Math formula scrolls horizontally
+.MJXc-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+// Rendered image scrolls horizontally
+.mermaid {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
