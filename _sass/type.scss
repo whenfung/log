@@ -40,7 +40,7 @@ hr {
   position: relative;
   margin: 3rem 3rem;
   border: 0;
-  border-top: 2px solid #A2A2A2;
+  border-top: 1px solid var(--gray-500);
 }
 
 blockquote {
@@ -56,6 +56,7 @@ blockquote {
 
 code,
 pre {
+	tab-size: 2;
   font-family: var(--code-font);     
   font-size: var(--code-font-size);  
   background-color: var(--code-bg); 
