@@ -1,15 +1,14 @@
 .post {
   padding: 1rem; 
   background-color: var(--container-bg);
-  
+  margin: 1rem 0;
+	
   @media (min-width: 38rem) {
-		margin: 1rem 0;
     border-radius: var(--border-radius);
     box-shadow: 0 1px 1px 0 rgba(31, 35, 46, .15);
   }
 }
 
 .post-title {
-	display: block;
-  margin: 1rem 0;
+  padding: 1rem 0;
 }
