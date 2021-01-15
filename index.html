@@ -6,7 +6,7 @@ title: Home
 {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y' " %}
 {% for group in posts_by_year %}
 
-<h3 class="group-name">{{ group.name }}</h3>
+<div class="group-name">{{ group.name }}</div>
 <ul>
   {% for post in group.items %}
     <li><div class="group-date">{{ post.date | date: "%b %-d" }}</div> <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
