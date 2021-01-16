@@ -21,9 +21,23 @@
   }
 }
 
-// Page & Post
+// Page
 
-.page, .post {
+.page {
+	padding: 1rem;
+	background-color: var(--content-bg);
+}
+
+.page-title {
+	text-align: center;
+	background-color: var(--content-bg);
+	padding: .5rem;
+	border-bottom: 1px solid var(--gray-200);
+}
+
+// Post
+
+.post {
   padding: 1rem;
   background-color: var(--content-bg);
 }

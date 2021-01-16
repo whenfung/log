@@ -103,12 +103,12 @@ video {
   }
 }
 
-// iframe video ratio is 16: 9
 iframe {
   overflow: none;      // Remove scroll box
   border: 0;           // Remove embedded border 
 }
 
+// iframe video ratio is 16: 9
 .video {
 	width: 100vw;
 	height: 56.25vw;
