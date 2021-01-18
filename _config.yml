@@ -24,8 +24,15 @@ defaults:
     values:
       layout: "post"
 
-
 # Socials
 disqus: professordeng
 github: professordeng
 email: professordeng@qq.com
+
+nav:
+- name: Home
+  path: /
+- name: Project
+  path: /pages/project.html
+- name: About
+  path: /pages/about.html
