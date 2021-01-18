@@ -16,7 +16,7 @@ plugins:
   - jekyll-avatar
   - jekyll-mentions
 
-# default layout of the articles in _post
+# default layout of the articles in _posts
 defaults:
   - scope:
       path: ""
@@ -24,10 +24,15 @@ defaults:
     values:
       layout: "post"
 
-# Socials
 disqus: professordeng
-github: professordeng
 email: professordeng@qq.com
+
+socials:
+- name: github
+  url: https://github.com/professordeng
+- name: twitter
+  url: https://twitter.com/denglate
+
 
 nav:
 - name: Home
