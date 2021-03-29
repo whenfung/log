@@ -2,7 +2,11 @@
 title: 搭建教程
 ---
 
-由于教程还未上传到 B 站上，因此先用挪威风景视频占个位。
+该视频教程包括三部分：
 
-<iframe class="video" src="//player.bilibili.com/player.html?bvid=BV1ki4y1b7ge&page=1&high_quality=1&danmaku=0" allowfullscreen> </iframe>
+- 0～5 分钟：模版介绍
+- 5～12 分钟：模板安装
+- 12～20 分钟：博客写作 & 发布
+
+<iframe class="video" src="//player.bilibili.com/player.html?bvid=BV1ZA411N7PE&page=1&high_quality=1&danmaku=0" allowfullscreen> </iframe>
 
