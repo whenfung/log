@@ -1,12 +1,12 @@
 # Log
 
-A jekyll theme, see [demo](https://professordeng.com/log)
+A Jekyll Theme, see [DEMO](https://professordeng.com/log)
 
 ## Features
 
 - Github markdown syntax.
-- Video support: include `video` label, YouTube, Bilibili.
+- Video support: include YouTube, Bilibili, `video` label.
 - Formula : supported by [MathJax](https://www.mathjax.org/)
-- Flowchart : supported by [mermaid](https://mermaid-js.github.io/mermaid/#/)
+- Flowchart : supported by [mermaid](https://mermaid-js.github.io/mermaid/)
 - Emoji
 - Comment support: powered by Disqus.
